@@ -179,8 +179,9 @@ class InstaMobile():
 
 
 ig = InstaMobile(new=True)
-
-ig.login("cataltasz", "mus123")
+username = ""
+password = ""
+ig.login(username, password)
 ig.skip_save_password()
 ig.skip_notifications()
 ig.watch_stories()
